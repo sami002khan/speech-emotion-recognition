@@ -1,0 +1,24 @@
+# 🎙️ Speech Emotion Recognition (ML Project)
+
+This project uses the RAVDESS dataset to classify human emotions from speech using MFCC features and a CNN model.
+
+ ## Files
+- `model_training.py` – Code for data loading, preprocessing, and training
+- `predict_emotion.py` – Predict emotion from a `.wav` file
+- `emotion_recognition_model.h5` – Trained model
+- `label_encoder.pkl` – Encoded emotion labels
+- `requirements.txt` – Python dependencies
+
+ ##  Detected Emotions
+- Neutral, Calm, Happy, Sad, Angry, Fearful, Disgust, Surprised
+
+ ##  How to Use
+1. Install packages: `pip install -r requirements.txt`
+2. Run training: `python model_training.py`
+3. Predict: `predict_emotion("path_to_audio.wav")`
+
+ ## Accuracy
+Achieved ~88% accuracy using CNN on MFCC features.
+
+ ## Model
+1D CNN → MaxPool → Dropout → Dense → Softmax
