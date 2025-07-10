@@ -1,5 +1,6 @@
 # speech-emotion-recognition
 Speech Emotion Recognition using MFCC features and a CNN model trained on the RAVDESS dataset.
+
 📌 Objective
 The objective of this project is to develop a machine learning model that recognizes human emotions from speech using audio signals. The model leverages Mel Frequency Cepstral Coefficients (MFCCs) for feature extraction and uses a Convolutional Neural Network (CNN) to classify emotions.
 
